@@ -17,7 +17,7 @@
 В результате проделанных действий получили доступ к шеллу с правами суперпользователя. Благодаря параметру __rw__ примененному выше раздел /root смонтирован в режиме read-write.
 Теперь можно сменить пароль стандартным способом. После чего создаем файл /.autorelabel чтобы подтвердить легитимность внесенных изменений в /etc/shadow для selinux. Затем производим перемонтирование в режим read-only.
 Отправляем систему в перезагрузку:
-![1-3.png](hhttps://github.com/evgeniy-romanov/Otus-linux-prof-Home-work-7/blob/main/screenshots/1-3.png)
+![1-3.png](https://github.com/evgeniy-romanov/Otus-linux-prof-Home-work-7/blob/main/screenshots/1-3.png)
 
 Проверям авторизацию с новым паролем:
 
